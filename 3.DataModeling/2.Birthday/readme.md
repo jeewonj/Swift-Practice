@@ -96,7 +96,12 @@ DatePicker(selection: $newDate, in: Date.distantPast...Date.now, displayedCompon
     * `context.delete()`: 데이터 삭제
 
 ## **preview**
-
+<p align="center">
+  <img src="Preview/Preview_1.png" width="24%">
+  <img src="Preview/Preview_2.png" width="24%">
+  <img src="Preview/Preview_3.png" width="24%">
+  <img src="Preview/Preview_4.png" width="24%">
+</p>
 
 ## **tutorial link**
 [Apple Developer Tutorial](https://developer.apple.com/tutorials/develop-in-swift/add-functionality-with-swift-testing)
