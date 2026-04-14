@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
-import SwiftData//튜토리얼에는 없는데 쓰니까 빌드됨....뭐지..
+import SwiftData//튜토리얼에는 없는데 쓰니까 빌드됨....
 
 struct ContentView: View {
     var body: some View {
         TabView {
             Tab("Friends", systemImage: "person.and.person") {
                 FriendList()
+                
             }
 
 
