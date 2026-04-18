@@ -50,7 +50,7 @@ struct FriendList: View {
     
     private func addFriend(){
         let newFriend = Friend(name: "")
-        context.insert(Friend(name: "New friend"))
+        context.insert(newFriend)
         self.newFriend = newFriend
     }
     
