@@ -1,11 +1,11 @@
 # **[App Development] 2. GratfulMoments - Custom Layout View**
 
 ## **배운 내용** 
-1.** Moment를 추가하는 모달 화면 만들기**
-    ```swift
+1.**Moment를 추가하는 모달 화면 만들기**
+```swift
     @State private var showCreatMoment = false              //모달을 보여줄지 말지 결정하는 변수(초기값은 false)
-    ```  
-    ```swift
+```  
+```swift
     NavigationStack{
         ScrollView {
             pathItems
@@ -33,12 +33,12 @@
         }
         .navigationTitle("Grateful Moments")                // 모달 화면 제목
     }
-    ```
-2.** Delete 버튼, 경고창 만들기**
-    ```swift
+```
+2.**Delete 버튼, 경고창 만들기**
+```swift
     @State private var showConfirmation = false              //삭제 경고창 보여주는 변수(초기값은 false)
-    ```  
-    ```swift
+```  
+```swift
     ScrollView{
         contentStack                                        //body 안에 private var : some View{}로 정의
     }
@@ -59,32 +59,36 @@
             }
         }
     }
-    ```
+```
     
-3.** 삭제 동작 만들기**
-    1. dataContainer에서 데이터 지우기
-    ```swift
+3.**삭제 동작 만들기**
+    * dataContainer에서 데이터 지우기
+
+    
+```swift
     @Environment(DataContainer.self) private var dataContainer                 //dataContainer 불러오기
-    ```
-    ```swift
+```
+```swift
     .confirmationDialog("Delte Moment", isPresented: $showConfirmation){        
         Button("Delete Moment", role:.destructive){
             dataContainer.context.delete(moment)                            //dataContainer에서 데이터 삭제
             try? dataContainer.context.save()
         }
-    ```
-    2. 해당 데이터의 detailView 지우기
-    ```swift
+```
+    * 해당 데이터의 detailView 지우기
+
+    
+```swift
         @Environment(\.dismiss) private var dismiss                         
-    ```
-    ```swift
+```
+```swift
     .confirmationDialog("Delte Moment", isPresented: $showConfirmation){
         Button("Delete Moment", role:.destructive){
             dataContainer.context.delete(moment)
             try? dataContainer.context.save()
             dismiss()                                                   //detailView 삭제
         }
-    ```
+```
 ## **preview**
 <p align="center">
   <img src="Preview/Preview_1.png" width="19%">
