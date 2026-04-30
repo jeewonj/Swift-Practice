@@ -1,0 +1,127 @@
+{
+  "activityEntities" : [
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-04-27T02:33:07Z",
+        "event" : "dataSourceMetrics",
+        "id" : "5B0C7A67-EF01-4F2B-AF2E-96AA2EC33432",
+        "subtitle" : "10,000 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-04-30T07:01:33Z",
+        "event" : "dataSourceMetrics",
+        "id" : "B16C745B-725A-47D7-8C78-639DB0912A51",
+        "subtitle" : "10,000 Items",
+        "title" : "Data Summary"
+      },
+      {
+        "createdDate" : "2026-04-30T07:02:46Z",
+        "event" : "dataSourceMetrics",
+        "id" : "E3AE6EA8-56FF-4ECA-8440-CF6380CBA7B4",
+        "subtitle" : "10,000 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-04-27T02:33:07Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "B2BF8E9D-0E17-488D-9C66-C090A57E2EBF",
+        "subtitle" : "TrailAnalyzer 1",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-04-30T07:01:33Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "801CBC52-3283-44CE-AE76-EDFCF6BA2D9C",
+        "subtitle" : "Decision Tree",
+        "title" : "Used By"
+      },
+      {
+        "createdDate" : "2026-04-30T07:02:46Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "5EE3497C-0073-44DD-A7AA-5FDD7578986A",
+        "subtitle" : "Linear Regression",
+        "title" : "Used By"
+      }
+    ]
+  ],
+  "createdDate" : "2026-04-27T02:31:41Z",
+  "dataPathRelativeToProjectURL" : "../Trail10k.csv/",
+  "dataResult" : {
+    "columnTypes" : [
+      "Int",
+      "Int",
+      "String",
+      "Int",
+      "Int"
+    ],
+    "columnValues" : [
+      "1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1",
+      "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
+      "paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved, paved",
+      "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0",
+      "1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1"
+    ],
+    "columns" : [
+      "distance",
+      "elevation",
+      "terrain",
+      "dangerous",
+      "risk"
+    ],
+    "createdDate" : "2026-04-27T02:31:41Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+
+      },
+      "issues" : [
+        {
+          "description" : "No target selected",
+          "severity" : "notReady"
+        },
+        {
+          "description" : "Data has 10000 rows",
+          "severity" : "info"
+        },
+        {
+          "description" : "No features selected",
+          "severity" : "notReady"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 1,
+        "sampleCount" : 10000
+      }
+    },
+    "dataSourceID" : "19A79385-F27B-477C-994F-5F164F8207FE",
+    "dataURL" : "file:///Users/jeegarden/Swift/Swift_DayN/5.Machine%20learning%20and%20AI/TrailData/Trail10k.csv",
+    "error" : {
+      "code" : 1000,
+      "domain" : "composer.error.domain",
+      "errorType" : "notReady",
+      "reason" : "No target selected"
+    },
+    "itemsCount" : 10000
+  },
+  "dataURL" : "file:///Users/jeegarden/Swift/Swift_DayN/5.Machine%20learning%20and%20AI/TrailData/Trail10k.csv",
+  "experimentIDs" : [
+    "F1151A48-1055-4FE2-9B3E-58F4C7DEAA51",
+    "230ADA2F-2394-4754-B956-EE915F848695",
+    "C417B56F-CDBF-46EE-A5C0-839F610EF736"
+  ],
+  "id" : "19A79385-F27B-477C-994F-5F164F8207FE",
+  "modifiedDate" : "2026-04-30T07:02:46Z",
+  "pathType" : 0,
+  "preferredFilename" : "Trail10k.csv",
+  "title" : "Trail10k.csv",
+  "version" : "1.0"
+}
