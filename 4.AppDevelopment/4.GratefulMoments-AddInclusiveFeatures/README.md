@@ -25,10 +25,11 @@
 
 ## **preview**
 <p align="center">
-  <img src="Preview/Preview_1.png" width="24%">
-  <img src="Preview/Preview_2.png" width="24%">
-  <img src="Preview/Preview_3.png" width="24%">
-  <img src="Preview/Preview_4.png" width="24%">
+  <img src="Preview/Preview_1.png" width="19%">
+  <img src="Preview/Preview_2.png" width="19%">
+  <img src="Preview/Preview_3.png" width="19%">
+  <img src="Preview/Preview_4.png" width="19%">
+  <img src="Preview/Preview_5.png" width="19%">
 </p>
 
 
